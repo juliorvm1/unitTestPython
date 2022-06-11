@@ -1,0 +1,17 @@
+para llamar una función desde el shell de pyhton
+  from docString import palindromo
+para ejecutar la función
+  palindromo('cadena')
+para saber la documentación de la función  
+ help(palindromo)
+
+ Extensión para generar el doctring autoDoctring triple comillas dobles y generar docstring
+
+Se puede probar el código directamente en el docString añadiendo un apartado nuevo que puede llamarese examples:
+en el se indica >>> y lo que se quiera ejecutar en este caso la función palindromo seguido del resultado esperado
+>>> palindromo('Anita lava la tina')
+True
+se ejecuta desde la consola:
+python3 -m doctest docString.py si no se obtiene una salida significa que se ejecuto correctamente
+python3 -m doctest docString.py -v bandera para obtener más información de la ejecución
+Los objetos documentables pueden ser funciones, clases, métodos, módulos,
