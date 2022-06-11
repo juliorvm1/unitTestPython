@@ -23,3 +23,9 @@ docString.User.__doc__  esto para accede a la documentación de la clase
 docString.user.__init__.__doc__  esto para acceder a la documentación del método de la clase
 
 los anteriores se pueden llamar con el comando help(aqu va dentro el obejeto que necesito su documentación)
+
+se puede separar las pruebas del archivo de código creando un archivo de texto al mismo nivel que el del código
+en este caso se creará test_docString.txt y mueven las lineas de las pruebas de la función palíndromo
+se agrega la linea >>> from docString import palindromo    para tener acceso a la función
+para utilizarlo por consola
+python -m doctest test_docString.txt

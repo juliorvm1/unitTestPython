@@ -1,0 +1,23 @@
+>>> from docString import user
+>>> from docString import palindromo
+
+>>> palindromo('Anita lava la tina')
+True
+
+>>> palindromo('CodigoFacilito')
+False
+
+>>> sentence='oso'
+>>> palindromo(sentence)
+True
+
+>>> username='eduardo'
+>>> password='password123'
+
+>>> user=user(username,password)
+
+>>> user.username==username
+True
+
+>>> user.password==password
+True
