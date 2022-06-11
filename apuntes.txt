@@ -14,4 +14,12 @@ True
 se ejecuta desde la consola:
 python3 -m doctest docString.py si no se obtiene una salida significa que se ejecuto correctamente
 python3 -m doctest docString.py -v bandera para obtener más información de la ejecución
-Los objetos documentables pueden ser funciones, clases, métodos, módulos,
+Los objetos documentables pueden ser funciones, clases, métodos, módulos, para probar el ejemplo en consola escribimos
+import docString
+docString.__doc__    esto para acceder a la documentación del módulo
+
+docString.User.__doc__  esto para accede a la documentación de la clase
+
+docString.user.__init__.__doc__  esto para acceder a la documentación del método de la clase
+
+los anteriores se pueden llamar con el comando help(aqu va dentro el obejeto que necesito su documentación)
